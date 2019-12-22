@@ -9,7 +9,7 @@ defmodule Pigmania.Application do
     # List all child processes to be supervised
     children = [
       # Start the Ecto repository
-      Pigmania.Repo,
+      # Pigmania.Repo,
       # Start the endpoint when the application starts
       PigmaniaWeb.Endpoint
       # Starts a worker by calling: Pigmania.Worker.start_link(arg)
